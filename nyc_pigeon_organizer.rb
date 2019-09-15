@@ -14,8 +14,8 @@ def nyc_pigeon_organizer(data)
      end
     end
   end
-   we added a new hash so that we 
-  data.each do |attributes, values|
+  #we added a new hash so that we 
+   data.each do |attributes, values|
     values.each do |keys, values2|
       new_hash.each do |names, attributes_new|
         if values2.include?(names)
